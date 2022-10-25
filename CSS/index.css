@@ -301,6 +301,8 @@ h1 {
 }
 
 .box .content li {
+    /* por */
+    position: relative;
     /* fl */
     float: left;
     /* mr */
@@ -310,6 +312,14 @@ h1 {
     width: 228px;
     height: 270px;
     background-color: #fff;
+}
+
+.box .content li .hot{
+    /* poa */
+    position:absolute;
+    top: 4px;
+    right: -4px;
+
 }
 
 /* :nth */
@@ -385,10 +395,4 @@ h1 {
     font-size: 12px;
     line-height: 20px;
     text-decoration: none;
-}
-.box .content li .hot{
-    position:absolute;
-    top: 4px;
-    right: -4px;
-
 }
