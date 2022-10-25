@@ -305,6 +305,7 @@ h1 {
     position: relative;
     /* fl */
     float: left;
+    display: inline-block;
     /* mr */
     margin-right: 15px;
     /* mb */
