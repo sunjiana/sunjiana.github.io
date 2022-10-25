@@ -386,3 +386,9 @@ h1 {
     line-height: 20px;
     text-decoration: none;
 }
+.box .content li .hot{
+    position:absolute;
+    top: 4px;
+    right: -4px;
+
+}
