@@ -303,8 +303,8 @@ h1 {
 .box .content li {
     /* por */
     position: relative;
-    float: left;
     /* fl */
+    float: left;
     display: inline-block;
     /* mr */
     margin-right: 15px;
