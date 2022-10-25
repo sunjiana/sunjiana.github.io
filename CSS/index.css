@@ -302,7 +302,7 @@ h1 {
 
 .box .content li {
     /* por */
-    position: static;
+    position: relative;
     /* fl */
     float: left;
     display: inline-block;
