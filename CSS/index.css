@@ -314,7 +314,7 @@ h1 {
 
 .box .content li a{
     /* por */
-    position: absolute;
+    position: relative;
 }
 
 .box .content li .hot{
