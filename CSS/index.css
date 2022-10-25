@@ -301,10 +301,10 @@ h1 {
 }
 
 .box .content li {
-    /* por */
-    position: relative;
     /* fl */
     float: left;
+    /* por */
+    position: relative;
     /* mr */
     margin-right: 15px;
     /* mb */
