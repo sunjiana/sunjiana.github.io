@@ -317,8 +317,8 @@ h1 {
 .box .content li .hot{
     /* poa */
     position:absolute;
-    top: 4px;
     right: -4px;
+    top: 4px;
 
 }
 
