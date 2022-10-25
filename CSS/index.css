@@ -303,8 +303,6 @@ h1 {
 .box .content li {
     /* fl */
     float: left;
-    /* por */
-    position: relative;
     /* mr */
     margin-right: 15px;
     /* mb */
@@ -312,6 +310,11 @@ h1 {
     width: 228px;
     height: 270px;
     background-color: #fff;
+}
+
+.box .content li{
+    /* por */
+    position: relative;
 }
 
 .box .content li .hot{
