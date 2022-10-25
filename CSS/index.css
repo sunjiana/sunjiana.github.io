@@ -303,7 +303,6 @@ h1 {
 .box .content li {
     /* por */
     position: absolute;
-    position: relative;
     /* fl */
     float: left;
     /* mr */
