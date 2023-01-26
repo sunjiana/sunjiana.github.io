@@ -3,9 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
-
 li {
     list-style: none;
 }
@@ -18,6 +16,9 @@ a {
 .clearfix::after {
     content: '';
     display: table;
+    visibility: hidden;
+    overflow: hidden;
+    zoom: 1;
 }
 
 .clearfix::after {
