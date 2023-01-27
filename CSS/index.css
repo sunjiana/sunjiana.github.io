@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
+    zoom: 1;
 }
+
 li {
     list-style: none;
 }
@@ -17,8 +20,6 @@ a {
     content: '';
     display: table;
     visibility: hidden;
-    overflow: hidden;
-    zoom: 1;
 }
 
 .clearfix::after {
@@ -27,16 +28,24 @@ a {
 
 body {
     background-image: url(../imgas/index_bg.gif);
-    background-repeat:repeat-x;
+    background-repeat: repeat-x;
 }
+
 /* 版心居中 */
-.wrapper{
+.wrapper {
     width: 964px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #f3f5f7;
 }
-.header{
+
+.header {
     width: 960px;
     height: 60px;
-    margin: 2px auto ;
+    margin: 2px auto;
+}
+h1{
+    float: left;
+}
+.bander{
+    float: left;
 }
