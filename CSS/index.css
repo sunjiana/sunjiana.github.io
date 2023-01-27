@@ -62,6 +62,6 @@ body {
     background-repeat: repeat-x;
     background-color: #c33;
 }
-.nav li{
+.wrapper nav li{
     float: left;
 }
