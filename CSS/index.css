@@ -5,6 +5,7 @@
     box-sizing: border-box;
     overflow: hidden;
     zoom: 1;
+    font:13px Verdana,Arial,Tahoma,"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
 }
 
 li {
