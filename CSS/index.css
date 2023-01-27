@@ -47,6 +47,7 @@ body {
 .logo{
     float: left;
     margin-left: 20px;
+    margin-top: 3px;
 }
 .bander{
     float: left;
