@@ -5,7 +5,7 @@
     box-sizing: border-box;
     overflow: hidden;
     zoom: 1;
-    font:13px Verdana,Arial,Tahoma,"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
+    font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
 }
 
 li {
@@ -43,18 +43,22 @@ body {
     width: 960px;
     margin: 2px auto;
 }
-.logo{
+
+.logo {
     float: left;
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.bander{float: left;
+
+.bander {
+    float: left;
     margin-left: 10px;
-    width: 850px;
+    /* width: 850px; */
     height: 60px;
 }
-.nav{
+
+.nav {
     margin-top: 3px;
     width: 960px;
     height: 30px;
@@ -62,6 +66,8 @@ body {
     background-repeat: repeat-x;
     background-color: #c33;
 }
-.wrapper nav li{
+
+.wrapper .header .nav li {
     float: left;
+    width: 60px;
 }
