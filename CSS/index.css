@@ -5,9 +5,8 @@
     box-sizing: border-box;
     overflow: hidden;
     zoom: 1;
-    font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    font: 13px Verdana,Arial,Tahoma,"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
 }
-
 li {
     list-style: none;
 }
@@ -69,5 +68,20 @@ body {
 
 .wrapper .header .nav li {
     float: left;
-    width: 60px;
+    height: 28px;
+}
+
+.wrapper .header .nav a {
+    display: block;
+    padding: 0 5px;
+    border-right: 2px solid #ea3b3b;
+    width: 64px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+    
+    
+    
+    
+    
 }
