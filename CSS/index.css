@@ -165,3 +165,10 @@ body {
 .leftsidebar .content a:hover {
     color:rgba(61, 61, 61,.7) ;
 }
+.middlesidebar{
+    width: 554px;
+    height: 405px;
+    background-image: url(../imgas/bgc1.png);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
