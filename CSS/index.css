@@ -40,8 +40,7 @@ body {
 }
 
 .header {
-    width: 960px;
-    margin: 2px auto;
+    margin: 2px auto 0px;
 }
 
 .logo {
@@ -67,12 +66,12 @@ body {
     background-color: #c33;
 }
 
-.wrapper .header .nav li {
+.header .nav li {
     float: left;
     height: 28px;
 }
 
-.wrapper .header .nav a {
+.header .nav a {
     display: block;
     padding: 0 5px;
     border-right: 2px solid #ea3b3b;
@@ -83,11 +82,11 @@ body {
     line-height: 26px;
 }
 
-.wrapper .header .nav a:hover {
+.header .nav a:hover {
     background-image: url(../imgas/nav-bgc.png);
 }
 
-.wrapper .header .declare {
+.header .declare {
     width: 100%;
     text-align: center;
     font: normal 400 14px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
@@ -96,9 +95,73 @@ body {
     line-height: 32px;
 }
 
-.wrapper .header .declare span {
+.header .declare span {
     text-align: center;
     font: normal 700 14px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
     color: red;
     line-height: 32px;
+}
+
+.plt {
+    height: 1000px;
+    padding: 2px;
+}
+
+.plt .leftsidebar {
+    float: left;
+    height: 405px;
+    width: 150px;
+    margin: 0 auto;
+    border-top: 2px solid #eb3331;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.leftsidebar span {
+    float: left;
+    padding-left: 24px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #d81313;
+}
+
+.leftsidebar a.strong {
+    height: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #d81313;
+}
+
+.leftsidebar ul .title {
+    margin: 0 auto;
+    height: 32px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #c9c9c9;
+    line-height: 32px;
+    clear: both;
+}
+
+.leftsidebar ul li a {
+    display: block;
+}
+
+.leftsidebar .content a {
+    margin: auto 9px;
+    height: 32px;
+    border-bottom: 1px dashed #c9c9c9;
+    text-indent: 14px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #444;
+    background: url(../imgas/ico-3.gif) 4px 9px no-repeat;
+}
+.leftsidebar .title a:hover {
+    color:rgb(61, 61, 61) ;
+}
+.leftsidebar .content a:hover {
+    color:rgba(61, 61, 61,.7) ;
 }
