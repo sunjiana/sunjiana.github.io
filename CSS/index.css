@@ -5,8 +5,9 @@
     box-sizing: border-box;
     overflow: hidden;
     zoom: 1;
-    font: 13px Verdana,Arial,Tahoma,"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
+    font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
 }
+
 li {
     list-style: none;
 }
@@ -78,10 +79,26 @@ body {
     width: 64px;
     text-align: center;
     font-size: 15px;
+    color: #fff;
     line-height: 26px;
-    
-    
-    
-    
-    
+}
+
+.wrapper .header .nav a:hover {
+    background-image: url(../imgas/nav-bgc.png);
+}
+
+.wrapper .header .declare {
+    width: 100%;
+    text-align: center;
+    font: normal 400 14px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    color: #c33;
+    border-bottom: 1px solid #c9c9c9;
+    line-height: 32px;
+}
+
+.wrapper .header .declare span {
+    text-align: center;
+    font: normal 700 14px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    color: red;
+    line-height: 32px;
 }
