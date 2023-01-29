@@ -166,6 +166,8 @@ body {
     color:rgba(61, 61, 61,.7) ;
 }
 .middlesidebar{
+    float: left;
+    margin-left: 8px;
     width: 554px;
     height: 405px;
     background-image: url(../imgas/bgc1.png);
