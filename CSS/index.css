@@ -105,17 +105,27 @@ body {
 .plt {
     height: 1000px;
     padding: 2px;
+    background-image: url(../imgas/bgc2.jpg);
+    background-repeat: repeat;
+    background-size:100% 100%;
 }
 
 .plt .leftsidebar {
     float: left;
+    padding-right: 8px;
     height: 405px;
     width: 150px;
     margin: 0 auto;
-    border-top: 2px solid #eb3331;
+    background: url(../imgas/dots.gif) repeat-y right;
     border-left: 1px solid #c9c9c9;
-    border-right: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
+    
+}
+.plt .leftsidebar .tbox{
+height: 405px;
+width: 141px;
+border-top: 2px solid #eb3331;
+border-right: 1px solid #c9c9c9;
+border-bottom: 3px solid #c9c9c9;
 }
 
 .leftsidebar span {
@@ -167,10 +177,7 @@ body {
 }
 .middlesidebar{
     float: left;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     width: 554px;
     height: 405px;
-    background-image: url(../imgas/bgc1.png);
-    background-repeat: repeat;
-    background-size: 100% 100%;
 }
