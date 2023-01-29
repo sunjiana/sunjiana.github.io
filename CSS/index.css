@@ -107,7 +107,7 @@ body {
     padding: 2px;
     background-image: url(../imgas/bgc2.jpg);
     background-repeat: repeat;
-    background-size:100% 100%;
+    background-size: 100% 100%;
 }
 
 .plt .leftsidebar {
@@ -118,14 +118,15 @@ body {
     margin: 0 auto;
     background: url(../imgas/dots.gif) repeat-y right;
     border-left: 1px solid #c9c9c9;
-    
+
 }
-.plt .leftsidebar .tbox{
-height: 405px;
-width: 141px;
-border-top: 2px solid #eb3331;
-border-right: 1px solid #c9c9c9;
-border-bottom: 3px solid #c9c9c9;
+
+.plt .leftsidebar .tbox {
+    height: 405px;
+    width: 141px;
+    border-top: 2px solid #eb3331;
+    border-right: 1px solid #c9c9c9;
+    border-bottom: 3px solid #c9c9c9;
 }
 
 .leftsidebar span {
@@ -169,15 +170,47 @@ border-bottom: 3px solid #c9c9c9;
     color: #444;
     background: url(../imgas/ico-3.gif) 4px 9px no-repeat;
 }
+
 .leftsidebar .title a:hover {
-    color:rgb(61, 61, 61) ;
+    color: rgb(61, 61, 61);
 }
+
 .leftsidebar .content a:hover {
-    color:rgba(61, 61, 61,.7) ;
+    color: rgba(61, 61, 61, .7);
 }
-.middlesidebar{
+
+.middlesidebar {
     float: left;
     /* margin-left: 8px; */
     width: 554px;
     height: 405px;
 }
+
+.middlesidebar .title {
+    padding: 8px 0 0 18px;
+    color: #093;
+}
+
+.middlesidebar .title h2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑;
+    ; 
+}
+.middlesidebar .explain 
+a,
+span{
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+.middlesidebar .explain span{
+    text-indent: 2em;
+    text-align: left;
+}
+.middlesidebar .explain span a:hover{
+    color: #d81313;
+}
+
