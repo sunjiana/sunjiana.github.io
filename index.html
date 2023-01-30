@@ -129,12 +129,11 @@
                 <form action="">
 
                     <!-- 简写input:t -->
-                    <label style="cursor: pointer">姓氏: <input type="text" name="firstname" id="" maxlength="2"
+                    <label style="cursor: pointer">姓氏：<input type="text" name="firstname" id="" maxlength="2"
                             placeholder="张" class="fname"></label>
                     <label style="cursor:pointer">名字：<input type="text" name="lastname" id="" maxlength="2"
                             placeholder="三" class="lname"></label>
-                    公历：
-                    <select name="year" id="" size="1">
+                    公历：<select style="cursor: pointer;" name="year" id="" size="1">
                         <option value="1938">1938</option>
                         <option value="1939">1939</option>
                         <option value="1940">1940</option>
@@ -177,7 +176,8 @@
                         <option value="1977">1977</option>
                         <option value="1978">1978</option>
                         <option value="1979">1979</option>
-                        <option value="1980" selected>1980</option>
+                        <option value="1980" selected>1980
+                        <option>
                         <option value="1981">1981</option>
                         <option value="1982">1982</option>
                         <option value="1983">1983</option>
@@ -221,10 +221,86 @@
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
-                    </select> 年 <select size="1" name="month" class="select">
                     </select>
+                    年 <select style="cursor:pointer" size="1" name="month">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    月<select style="cursor: pointer;" size="1" name="day">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select> 日
+                    <br>
+                    时辰：<select style="cursor: pointer;" size="1" name="time" id="">
+                        <option value="0">子 00:00-00:59</option>
+                        <option value="1">丑 01:00-01:59</option>
+                        <option value="2">丑 02:00-02:59</option>
+                        <option value="3">寅 03:00-03:59</option>
+                        <option value="4">寅 04:00-04:59</option>
+                        <option value="5">卯 05:00-05:59</option>
+                        <option value="6">卯 06:00-06:59</option>
+                        <option value="7">辰 07:00-07:59</option>
+                        <option value="8">辰 08:00-08:59</option>
+                        <option value="9">巳 09:00-09:59</option>
+                        <option value="10">巳 10:00-10:59</option>
+                        <option value="11">午 11:00-11:59</option>
+                        <option value="12">午 12:00-12:59</option>
+                        <option value="13">未 13:00-13:59</option>
+                        <option value="14">未 14:00-14:59</option>
+                        <option value="15">申 15:00-15:59</option>
+                        <option value="16">申 16:00-16:59</option>
+                        <option value="17">酉 17:00-17:59</option>
+                        <option value="18">酉 18:00-18:59</option>
+                        <option value="19">戌 19:00-19:59</option>
+                        <option value="20">戌 20:00-20:59</option>
+                        <option value="21">亥 21:00-21:59</option>
+                        <option value="22">亥 22:00-22:59</option>
+                        <option value="23">子 23:00-23:59</option>
+                    </select>点
+                    &nbsp;&nbsp;性别：<select style="cursor: pointer;" name="sex" id="" >
+                        <option value="man">男性</option>                        
+                        <option value="woman">女性</option>                        
 
-
+                    </select>
                 </form>
             </div>
         </div>
