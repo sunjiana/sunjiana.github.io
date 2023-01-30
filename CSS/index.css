@@ -5,7 +5,7 @@
     box-sizing: border-box;
     overflow: hidden;
     zoom: 1;
-    font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    /* font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体"; */
 }
 
 li {
@@ -14,6 +14,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #444;
 }
 
 .clearfix::before,
@@ -220,4 +221,26 @@ span {
 
 .middlesidebar .explain span a:hover {
     color: #d81313;
+}
+
+.middlesidebar .title-xs {
+    margin: 6px auto;
+    width: 500px;
+    height: 23px;
+    border-bottom: 2px solid #c33;
+}
+
+.middlesidebar .title-xs h3 {
+    float: left;
+    margin: 0 0 10px 10px;
+    padding-left: 21px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background: url(../images/dots_cur.gif) no-repeat;
+}
+.middlesidebar .title-xs span{
+    float: right;
+    line-height: 20px;
+    font-size: 12px;
 }
