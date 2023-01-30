@@ -184,6 +184,8 @@ body {
     /* margin-left: 8px; */
     width: 554px;
     height: 405px;
+    background: url(../imgas/dots.gif) repeat-y right;
+
 }
 
 .middlesidebar .title {
@@ -195,22 +197,27 @@ body {
     font-size: 18px;
     font-weight: 700;
     font-family: STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑;
-    ; 
+    ;
 }
-.middlesidebar .explain 
-a,
-span{
+
+.middlesidebar .explain {
+    padding: 15px;
+}
+
+.middlesidebar .explain a,
+span {
     display: inline-block;
     line-height: 22px;
     font-size: 14px;
     color: #333;
     vertical-align: middle;
 }
-.middlesidebar .explain span{
+
+.middlesidebar .explain span {
     text-indent: 2em;
     text-align: left;
 }
-.middlesidebar .explain span a:hover{
+
+.middlesidebar .explain span a:hover {
     color: #d81313;
 }
-
