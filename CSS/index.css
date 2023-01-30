@@ -1,4 +1,19 @@
 /* 美化首页清除影响 */
+@media screen and (max-device-width: 400px){
+    .testInput{
+        width: 50%;
+        height: 80%;
+    }
+    
+}
+@media screen and (min-device-width: 401px){
+    .testInput{
+        width: 90%;
+        height: 90%;
+    }
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -239,8 +254,15 @@ span {
     color: #333;
     background: url(../images/dots_cur.gif) no-repeat;
 }
-.middlesidebar .title-xs span{
+
+.middlesidebar .title-xs span {
     float: right;
     line-height: 20px;
     font-size: 12px;
+}
+
+.middlesidebar .inform {
+    width: 62%;
+    height: 50px;
+    margin: 2px auto;
 }
