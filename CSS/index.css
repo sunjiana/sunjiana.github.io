@@ -116,7 +116,7 @@ body {
 .plt .leftsidebar {
     float: left;
     padding-right: 8px;
-    height: 405px;
+    height: 410px;
     width: 150px;
     margin: 0 auto;
     background: url(../images/dots.gif) repeat-y right;
@@ -125,7 +125,7 @@ body {
 }
 
 .plt .leftsidebar .tbox {
-    height: 405px;
+    height: 100%;
     width: 141px;
     border-top: 2px solid #eb3331;
     border-right: 1px solid #c9c9c9;
@@ -186,9 +186,8 @@ body {
     float: left;
     /* margin-left: 8px; */
     width: 554px;
-    height: 405px;
+    height: 410px;
     background: url(../images/dots.gif) repeat-y right;
-
 }
 
 .middlesidebar .title {
@@ -295,4 +294,10 @@ span {
     font-size: 15px;
     color: #fff;
     cursor:pointer;
+}
+.middlesidebar .msg{
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+    color: #444;
 }
