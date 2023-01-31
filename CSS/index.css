@@ -23,9 +23,8 @@ a {
     display: table;
     visibility: hidden;
 }
-border{
 
-}
+border {}
 
 .clearfix::after {
     clear: both;
@@ -256,18 +255,44 @@ span {
     line-height: 36px;
 }
 
-.middlesidebar .inform form 
-.fname,
-.lname{
+.middlesidebar .inform form .fname,
+.lname {
     width: 114px;
     height: 24px;
     padding-left: 4px;
     border: 1px solid #b9b9b9;
 }
-.inform form{
-    vertical-align:center;
+
+.inform form {
+    vertical-align: middle;
 }
-.inform form select{
-    font: 12px Verdana,Arial,Tahoma;
+
+.inform form select {
+    font: 12px Verdana, Arial, Tahoma;
     /* border:1px ; */
+}
+
+.middlesidebar .inform form .tel {
+    height: 24px;
+    border: 1px solid #b9b9b9;
+    line-height: 22px;
+}
+
+.Gray {
+    color: gray;
+}
+
+.middlesidebar .inform .btn {
+    outline: none;
+    display: block;
+    margin: 6px auto 0px;
+    width: 92px;
+    height: 32px;
+    line-height: 24px;
+    background-color: #fda039;
+    border: 1px solid #fda039;;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #fff;
+    cursor:pointer;
 }
