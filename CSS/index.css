@@ -307,7 +307,25 @@ span {
 
 /* 右边栏 */
 .rightsidebar{
-    float: left;
+    float: right;
     width: 250px;
     margin-left: 6px;
+    border:1px solid #c9c9c9 ;
+    font-size: 14px;
+}
+
+.rightsidebar dl dt {
+    border-top: 2px solid #eb3331;
+    border-bottom: 1px solid #c9c9c9;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f7f7f7;
+}
+.rightsidebar dl dt span {
+    float: left;
+    padding-left: 10px;
+    height: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #d81313;
 }
