@@ -17,6 +17,18 @@ a {
     color: #444;
 }
 
+.b {
+    font-weight: 700;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
 .clearfix::before,
 .clearfix::after {
     content: '';
@@ -24,7 +36,6 @@ a {
     visibility: hidden;
 }
 
-border {}
 
 .clearfix::after {
     clear: both;
@@ -306,11 +317,11 @@ span {
 }
 
 /* 右边栏 */
-.rightsidebar{
+.rightsidebar {
     float: right;
     width: 250px;
     margin-left: 6px;
-    border:1px solid #c9c9c9 ;
+    border: 1px solid #c9c9c9;
     font-size: 14px;
 }
 
@@ -321,6 +332,7 @@ span {
     line-height: 32px;
     background-color: #f7f7f7;
 }
+
 .rightsidebar dl dt span {
     float: left;
     padding-left: 10px;
@@ -328,4 +340,12 @@ span {
     line-height: 32px;
     font-weight: 700;
     color: #d81313;
+}
+
+.rightsidebar dl dd {
+    padding: 5px 5px 10px 5px;
+}
+
+.rightsidebar .center-left {
+    text-align: center;
 }
