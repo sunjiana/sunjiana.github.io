@@ -346,6 +346,29 @@ span {
     padding: 5px 5px 10px 5px;
 }
 
-.rightsidebar .center-left {
+.rightsidebar .center-right{
     text-align: center;
 }
+
+.rightsidebar .box-right-first ul{
+    margin: 0 13px;
+}
+
+.rightsidebar .box-right-first li{
+    float: left;
+    margin: 2px;
+    padding: 3px;
+    background-color: rgba(169, 168, 168, 0.679);
+}
+.rightsidebar .box-right-first ul li a {
+    display:block;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.rightsidebar .box-right-first ul li:hover{
+    background-color: rgba(80, 80, 80, 0.755);
+}
+
+    
