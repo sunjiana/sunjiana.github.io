@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     zoom: 1;
-    
+
+    /* overflow: hidden; */
     /* font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体"; */
 }
 
@@ -41,6 +42,7 @@ a {
 .clearfix::after {
     content: '';
     display: table;
+    /* clear: both; */
     visibility: hidden;
 }
 
@@ -98,7 +100,7 @@ body {
     display: block;
     padding: 0 5px;
     border-right: 2px solid #ea3b3b;
-    width: 64px;
+    width: 63.9px;
     text-align: center;
     font-size: 15px;
     color: #fff;
@@ -195,7 +197,7 @@ body {
     line-height: 32px;
     font-size: 14px;
     color: #444;
-    background: url(../images/ico-3.gif) 4px 9px no-repeat;
+    background: url(../images/ico-3.gif) 4px 12px no-repeat;
 }
 
 .leftsidebar .title a:hover {
@@ -221,6 +223,7 @@ body {
 .tbox dt a{
     color: #d81313 ;
 
+
 }
 
 .tbox dd ul li {
@@ -228,7 +231,9 @@ body {
     height: 32px;
     line-height: 32px;
     border-bottom: 1px dashed #c9c9c9;
-    background-image: url(.);
+    background: url(../images/ico-3.gif) 4px 12px no-repeat;
+    text-indent: 14px;
+
 }
 .tbox dd ul li a{
     
