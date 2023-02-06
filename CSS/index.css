@@ -234,6 +234,13 @@ body {
 
 }
 
+.tbox dl dt .more{
+    float: right;
+    padding-right: 8px;
+    font-weight: 400;
+    color:#505050 ;
+}
+
 .tbox dl dt a:hover{
     color:  rgb(61, 61, 61);
 }
