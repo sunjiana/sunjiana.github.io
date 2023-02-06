@@ -36,6 +36,7 @@ a {
     border-top: 2px solid #eb3331;
     font-size: 14px;
     color: #505050;
+    overflow: hidden;
 }
 
 .clearfix::before,
