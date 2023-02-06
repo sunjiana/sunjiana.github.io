@@ -238,6 +238,8 @@ body {
     float: right;
     padding-right: 8px;
     font-weight: 400;
+}
+.tbox dl dt .more a{
     color:#505050 ;
 }
 
@@ -249,6 +251,11 @@ body {
     color:  rgba(61, 61, 61,.7);
 }
 
+.tbox dl dt .more a:hover{
+    color: #f33;
+    text-decoration: underline;
+}
+
 .plt .box-middle-secode dt {
     border-bottom: 1px solid #c9c9c9;
     height: 32px;
@@ -256,6 +263,11 @@ body {
     background-color: #f7f7f7;
 }
 
+.plt .box-middle-secode dd li{
+    float: left;
+    width: 46.5%;
+
+} 
 /* 中间栏 */
 
 .middlesidebar {
