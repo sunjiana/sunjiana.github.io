@@ -244,6 +244,12 @@ body {
     color:#505050 ;
 }
 
+.tbox dl dd{
+    margin: 0;
+    padding: 5px 5px 10px 5px;
+    overflow: hidden;
+}
+
 .tbox dl dt a:hover{
     color:  rgb(61, 61, 61);
 }
@@ -268,7 +274,10 @@ body {
     float: left;
     width: 46.5%;
 
-} 
+}
+#d1 li  {
+    width: 30%;
+}
 /* 中间栏 */
 
 .middlesidebar {
