@@ -31,7 +31,7 @@ a {
     color: red;
 }
 
-.tbox{
+.tbox {
     border: 1px solid #c9c9c9;
     border-top: 2px solid #eb3331;
     font-size: 14px;
@@ -91,6 +91,15 @@ body {
     background-color: #c33;
 }
 
+.tbox dt span {
+    padding-left: 24px;
+    color: #d81313;
+}
+
+.tbox dt a {
+    color: #d81313;
+}
+
 .header .nav li {
     float: left;
     height: 28px;
@@ -145,7 +154,7 @@ body {
     width: 150px;
     margin: 0 auto;
     background: url(../images/dots.gif) repeat-y right;
-    
+
 
 }
 
@@ -208,22 +217,11 @@ body {
     color: rgba(61, 61, 61, .7);
 }
 
-.plt .box-left-secode dt{
-    border-bottom:1px solid #c9c9c9 ;
+.plt .box-left-secode dt {
+    border-bottom: 1px solid #c9c9c9;
     height: 32px;
     line-height: 32px;
     background-color: #f7f7f7;
-}
-
-.tbox dt span{
-    padding-left: 24px;
-    color:#d81313 ;
-}
-
-.tbox dt a{
-    color: #d81313 ;
-
-
 }
 
 .tbox dd ul li {
@@ -235,9 +233,12 @@ body {
     text-indent: 14px;
 
 }
-.tbox dd ul li a{
-    
 
+.plt .box-middle-secode dt {
+    border-bottom: 1px solid #c9c9c9;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f7f7f7;
 }
 
 /* 中间栏 */
@@ -388,29 +389,28 @@ span {
     padding: 5px 5px 10px 5px;
 }
 
-.rightsidebar .center-right{
+.rightsidebar .center-right {
     text-align: center;
 }
 
-.rightsidebar .box-right-first ul{
+.rightsidebar .box-right-first ul {
     margin: 0 13px;
 }
 
-.rightsidebar .box-right-first li{
+.rightsidebar .box-right-first li {
     float: left;
     margin: 2px;
     padding: 3px;
     background-color: rgba(169, 168, 168, 0.679);
 }
+
 .rightsidebar .box-right-first ul li a {
-    display:block;
+    display: block;
     width: 100px;
     height: 26px;
     line-height: 26px;
 }
 
-.rightsidebar .box-right-first ul li:hover{
+.rightsidebar .box-right-first ul li:hover {
     background-color: rgba(80, 80, 80, 0.755);
 }
-
-    
