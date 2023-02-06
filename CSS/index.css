@@ -234,6 +234,14 @@ body {
 
 }
 
+.tbox dl dt a:hover{
+    color:  rgb(61, 61, 61);
+}
+
+.tbox dl dd a:hover{
+    color:  rgba(61, 61, 61,.7);
+}
+
 .plt .box-middle-secode dt {
     border-bottom: 1px solid #c9c9c9;
     height: 32px;
