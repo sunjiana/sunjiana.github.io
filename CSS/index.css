@@ -235,30 +235,31 @@ body {
 
 }
 
-.tbox dl dt .more{
+.tbox dl dt .more {
     float: right;
     padding-right: 8px;
     font-weight: 400;
 }
-.tbox dl dt .more a{
-    color:#505050 ;
+
+.tbox dl dt .more a {
+    color: #505050;
 }
 
-.tbox dl dd{
+.tbox dl dd {
     margin: 0;
     padding: 5px 5px 10px 5px;
     overflow: hidden;
 }
 
-.tbox dl dt a:hover{
-    color:  rgb(61, 61, 61);
+.tbox dl dt a:hover {
+    color: rgb(61, 61, 61);
 }
 
-.tbox dl dd a:hover{
-    color:  rgba(61, 61, 61,.7);
+.tbox dl dd a:hover {
+    color: rgba(61, 61, 61, .7);
 }
 
-.tbox dl dt .more a:hover{
+.tbox dl dt .more a:hover {
     color: #f33;
     text-decoration: underline;
 }
@@ -270,14 +271,16 @@ body {
     background-color: #f7f7f7;
 }
 
-.plt .box-middle-secode dd li{
+.plt .box-middle-secode dd li {
     float: left;
     width: 46.5%;
 
 }
-#d1 li  {
+
+#d1 li {
     width: 30%;
 }
+
 /* 中间栏 中间左边都套一块了上几个算是中间通用栏 */
 
 .middlesidebar {
@@ -397,16 +400,19 @@ span {
 }
 
 /* 最后左边中间小标题栏 */
-.mt{
-   margin-top: 10px; 
-   overflow: hidden;
-}
-.mt .tbox{
-    width: 341px;
-    float: left;
+.mt {
+    overflow: hidden;
 }
 
-.mt .tbox dl dt{
+    .mt .tbox {
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    width: 341px;
+
+}
+
+.mt .tbox dl dt {
     border-bottom: 1px solid #c9c9c9;
     height: 32px;
     line-height: 32px;
@@ -414,23 +420,24 @@ span {
 }
 
 .mt .tbox dl dt a {
-    padding-left:10px ;
+    padding-left: 10px;
 
 }
 
-.mt .tbox dl dt .more{
+.mt .tbox dl dt .more {
     line-height: 32px;
     color: #505050;
 }
 
-.mt .tbox dl dd ul li{
+.mt .tbox dl dd ul li {
     padding-left: 16px;
     border-bottom: 1px dashed #ddd;
     height: 32px;
     line-height: 32px;
-    background: url(../images/ico-2.gif) 7px 16px no-repeat ;
+    background: url(../images/ico-2.gif) 7px 16px no-repeat;
 
 }
+
 /* 右边栏 */
 .rightsidebar {
     float: right;
