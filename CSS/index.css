@@ -428,6 +428,10 @@ span {
     line-height: 32px;
     color: #505050;
 }
+.mt .tbox dl dt .more:hover{
+    text-decoration: underline;
+    color: #f33;
+}
 
 .mt .tbox dl dd ul li {
     padding-left: 16px;
