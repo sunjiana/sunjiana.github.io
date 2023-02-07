@@ -441,6 +441,20 @@ span {
     background: url(../images/ico-2.gif) 7px 16px no-repeat;
 
 }
+.mt .tbox dl dt span a{
+    padding-left: 0;
+}
+
+.mt .tbox dl dd .explain {
+    padding: 15px;
+}
+
+.mt .tbox dl dd .explain p{
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 24px;
+    color: #333;
+}
 
 /* 右边栏 */
 .rightsidebar {
