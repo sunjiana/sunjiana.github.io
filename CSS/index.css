@@ -278,7 +278,7 @@ body {
 #d1 li  {
     width: 30%;
 }
-/* 中间栏 */
+/* 中间栏 中间左边都套一块了上几个算是中间通用栏 */
 
 .middlesidebar {
     float: left;
@@ -396,11 +396,21 @@ span {
     color: #444;
 }
 
+/* 最后左边中间小标题栏 */
+.mt{
+   margin-top: 10px; 
+   overflow: hidden;
+}
+.mt .tbox{
+    width: 341px;
+    float: left;
+}
+
 /* 右边栏 */
 .rightsidebar {
     float: right;
     width: 250px;
-    margin-left: 6px;
+    margin-left: 5px;
     border: 1px solid #c9c9c9;
     font-size: 14px;
 }
