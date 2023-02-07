@@ -225,7 +225,7 @@ body {
     background-color: #f7f7f7;
 }
 
-.tbox dd ul li {
+.tbox .d2 dd ul li {
     margin: auto 9px;
     height: 32px;
     line-height: 32px;
@@ -406,6 +406,31 @@ span {
     float: left;
 }
 
+.mt .tbox dl dt{
+    border-bottom: 1px solid #c9c9c9;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f7f7f7;
+}
+
+.mt .tbox dl dt a {
+    padding-left:10px ;
+
+}
+
+.mt .tbox dl dt .more{
+    line-height: 32px;
+    color: #505050;
+}
+
+.mt .tbox dl dd ul li{
+    padding-left: 16px;
+    border-bottom: 1px dashed #ddd;
+    height: 32px;
+    line-height: 32px;
+    background: url(../images/ico-2.gif) 7px 16px no-repeat ;
+
+}
 /* 右边栏 */
 .rightsidebar {
     float: right;
