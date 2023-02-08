@@ -404,7 +404,7 @@ span {
     overflow: hidden;
 }
 
-    .mt .tbox {
+.mt .tbox {
     margin-top: 10px;
     float: left;
     margin-right: 10px;
@@ -428,7 +428,8 @@ span {
     line-height: 32px;
     color: #505050;
 }
-.mt .tbox dl dt .more:hover{
+
+.mt .tbox dl dt .more:hover {
     text-decoration: underline;
     color: #f33;
 }
@@ -441,7 +442,8 @@ span {
     background: url(../images/ico-2.gif) 7px 16px no-repeat;
 
 }
-.mt .tbox dl dt span a{
+
+.mt .tbox dl dt span a {
     padding-left: 0;
 }
 
@@ -449,7 +451,7 @@ span {
     padding: 15px;
 }
 
-.mt .tbox dl dd .explain p{
+.mt .tbox dl dd .explain p {
     font-size: 14px;
     text-indent: 2em;
     line-height: 24px;
@@ -461,7 +463,6 @@ span {
     float: right;
     width: 250px;
     margin-left: 5px;
-    border: 1px solid #c9c9c9;
     font-size: 14px;
 }
 
@@ -509,5 +510,27 @@ span {
 }
 
 .rightsidebar .box-right-first ul li:hover {
+    background-color: rgba(80, 80, 80, 0.755);
+}
+
+.rightsidebar .mt {
+    margin-top: 10px;
+}
+
+.rightsidebar .mt .tbox {
+    width: auto;
+    margin: 0;
+}
+
+.mt .tbox .d2 dd ul li {
+    float: left;
+    margin: 3px;
+    padding: 0;
+    width: 106px;
+    background: rgba(169, 168, 168, 0.679);
+    text-align: left;
+}
+
+.mt .tbox .d2 dd ul li:hover {
     background-color: rgba(80, 80, 80, 0.755);
 }
