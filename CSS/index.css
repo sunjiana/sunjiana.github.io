@@ -526,6 +526,8 @@ span {
     float: left;
     margin: 3px;
     padding: 0;
+    /* 取消边框线 */
+    border: 0;
     width: 106px;
     background: rgba(169, 168, 168, 0.679);
     text-align: left;
