@@ -53,6 +53,7 @@ a {
 }
 
 body {
+    width: 100%;
     background-image: url(../images/index_bg.gif);
     background-repeat: repeat-x;
 }
