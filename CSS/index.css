@@ -1,38 +1,4 @@
 /* 放index页面样式 */
-/* 首页样式 */
-/* 美化首页清除影响 */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    zoom: 1;
-
-    /* overflow: hidden; */
-    /* font: 13px Verdana, Arial, Tahoma, "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体"; */
-}
-
-/* body不要加overflow:hidden */
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #444;
-}
-
-.b {
-    font-weight: 700;
-}
-
-.green {
-    color: green;
-}
-
-.red {
-    color: red;
-}
 
 .tbox {
     border: 1px solid #c9c9c9;
@@ -40,19 +6,6 @@ a {
     font-size: 14px;
     color: #505050;
     overflow: hidden;
-}
-
-.clearfix::before,
-.clearfix::after {
-    content: '';
-    display: table;
-    /* clear: both; */
-    visibility: hidden;
-}
-
-
-.clearfix::after {
-    clear: both;
 }
 
 body {
@@ -396,7 +349,7 @@ span {
 }
 
 .middlesidebar .msg {
-    font-size: 14px;
+    font-size: 13px;
     text-align: left;
     text-indent: 2em;
     color: #444;
