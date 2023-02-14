@@ -317,6 +317,12 @@ span {
     border: 1px solid #b9b9b9;
 }
 
+.middlesidebar .inform form .fname:focus,
+.lname:focus {
+    outline: 2px solid #333;
+    border-radius: 3px;
+}
+
 .inform form {
     vertical-align: middle;
 }
@@ -330,6 +336,11 @@ span {
     height: 24px;
     border: 1px solid #b9b9b9;
     line-height: 22px;
+}
+
+.middlesidebar .inform form .tel:focus {
+    outline: 2px solid #333;
+    border-radius: 3px;
 }
 
 .middlesidebar .inform .btn {
