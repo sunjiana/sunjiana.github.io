@@ -7,6 +7,14 @@
     color: #505050;
     overflow: hidden;
 }
+.tbox dt span {
+    padding-left: 24px;
+    color: #d81313;
+}
+
+.tbox dt a {
+    color: #d81313;
+}
 
 /* 中心文本 */
 .plt {

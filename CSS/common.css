@@ -22,6 +22,22 @@ body {
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 78px;
+    height: 55px;
+}
+
+.logo h1 {
+    width: 78px;
+    height: 55px;
+}
+
+.logo h1 a {
+    display: block;
+    width: 78px;
+    height: 55px;
+    background-image: url(../images/logo1.jpg);
+    background-size: contain;
+    font-size: 0;
 }
 
 .bander {
@@ -38,15 +54,6 @@ body {
     background-image: url(../images/nav_bg.gif);
     background-repeat: repeat-x;
     background-color: #c33;
-}
-
-.tbox dt span {
-    padding-left: 24px;
-    color: #d81313;
-}
-
-.tbox dt a {
-    color: #d81313;
 }
 
 .header .nav li {
