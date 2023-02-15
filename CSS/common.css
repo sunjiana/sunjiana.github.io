@@ -52,21 +52,23 @@ body {
 .header .nav li {
     float: left;
     height: 28px;
+    border-right: 2px solid #ea3b3b;
+    margin: 0 auto;
+
 }
 
 .header .nav a {
     display: block;
     padding: 0 5px;
-    border-right: 2px solid #ea3b3b;
-    width: 63.9px;
+    width: 62.4px;
     text-align: center;
     font-size: 15px;
     color: #fff;
-    line-height: 26px;
+    line-height: 30px;
 }
 
-.header .nav a:last-child{
-border: 0;
+.header .nav li:last-child {
+    border: 0;
 }
 
 .header .nav a:hover {
